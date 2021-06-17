@@ -55,7 +55,7 @@ else:
 
     with open('Token.ini', 'w') as file:
         config.write(file)
-    print('設定ファイルにトークンを記入てください')
+    print('設定ファイルにtokenを記入してください。')
     time.sleep(3)
     sys.exit( )
 
